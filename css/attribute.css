@@ -1,0 +1,18 @@
+/* Selects all elements with a target attribute */
+[target] {
+  background-color: yellow;
+}
+/* Selects all elements with a target="_blank" attribute */
+[target="_blank"] {
+  background-color: green;
+}
+/* Selects all elements with a target attribute value containing "w3schools" */
+[target*="w3schools"] {
+  background-color: rgb(255, 0, 204);
+}
+
+[href*="metropolia.fi"] {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: hotpink;
+}

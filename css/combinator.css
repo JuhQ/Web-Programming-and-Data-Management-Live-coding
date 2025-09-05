@@ -1,0 +1,19 @@
+/* Selects all <p> elements inside <div> elements */
+div p {
+  color: red;
+}
+/* Selects all <p> elements where the parent is a <div> element */
+div > p {
+  color: blue;
+}
+/* Selects all <p> elements that are siblings of <div> elements */
+div ~ p {
+  color: green;
+}
+/* Selects all <p> elements that are placed immediately after <div> elements */
+div + p {
+  color: orange;
+  color: #000;
+  color: #000000;
+  color: #28d64bed;
+}
